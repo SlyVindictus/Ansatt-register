@@ -1,6 +1,8 @@
 def legg_inn():
     print ("legg in ny annsatt valgt")
     fornavn =input("skriv inn fornavn: ")
+def rediger_ansatt():
+    print ("Rediger ansatt")
 run=True
 while run:
     print ("1. Legg inn ny annsatt")
@@ -19,6 +21,6 @@ while run:
     valg=input("rediger ansatt")
     print(valg)
     if valg== "2":
-        legg_inn()
+        rediger_ansatt()
     else:
         print ("Feil")
