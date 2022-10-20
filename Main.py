@@ -1,8 +1,9 @@
+def Rediger_ansatt():
+    print ("Rediger ansatt")
+    
 def legg_inn():
     print ("legg in ny annsatt valgt")
     fornavn =input("skriv inn fornavn: ")
-def rediger_ansatt():
-    print ("Rediger ansatt")
 run=True
 while run:
     print ("1. Legg inn ny annsatt")
