@@ -15,3 +15,10 @@ while run:
         legg_inn()
     else:
         print ("Feil")
+    
+    valg=input("rediger ansatt")
+    print(valg)
+    if valg== "2":
+        legg_inn()
+    else:
+        print ("Feil")
