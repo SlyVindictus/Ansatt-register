@@ -1,9 +1,14 @@
-def Rediger_ansatt():
-    print ("Rediger ansatt")
-    
 def legg_inn():
+    ansatt=[]
     print ("legg in ny annsatt valgt")
     fornavn =input("skriv inn fornavn: ")
+    etternavn =input("skriv inn etternavn: ")
+    ansatt.append(fornavn)
+    ansatt.append(etternavn)
+    ansatte.append(ansatt)
+ansatte=[]
+def list_ut():
+    print (ansatte)
 run=True
 while run:
     print ("1. Legg inn ny annsatt")
@@ -16,12 +21,8 @@ while run:
     print(valg)
     if valg== "1":
         legg_inn()
-    else:
-        print ("Feil")
-    
-    valg=input("rediger ansatt")
-    print(valg)
-    if valg== "2":
-        rediger_ansatt()
+    elif valg== "4":
+        list_ut()
+
     else:
         print ("Feil")
