@@ -23,6 +23,14 @@ while run:
         legg_inn()
     elif valg== "4":
         list_ut()
-
+    elif valg== "3":
+        navn=input("skriv in ansatt for å slette: ")
+        count = 0
+        for i in ansatte:
+            if navn in i:
+                ansatte.pop(count)
+            count = count +1
+    elif valg == 4:
+        
     else:
         print ("Feil")
