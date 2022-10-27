@@ -8,7 +8,8 @@ def legg_inn():
     ansatte.append(ansatt)
 ansatte=[]
 def list_ut():
-    print (ansatte)
+    for i in ansatte:
+        print(f"fornavn: {i[0]}, etternavn: {i[1]}")
 run=True
 while run:
     print ("1. Legg inn ny annsatt")
@@ -31,6 +32,7 @@ while run:
                 ansatte.pop(count)
             count = count +1
     elif valg == 4:
+        pass
         
     else:
         print ("Feil")
